@@ -14,4 +14,9 @@ public class ActionController {
     public String hello() {
         return "action hello";
     }
+
+
+    public String action() {
+        return "1233456";
+    }
 }
