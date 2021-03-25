@@ -21,6 +21,4 @@ jobs:
       run: git clone https://github.com/Mr-12138/springboot-action.git
 
     - name: Build java jar
-      run: 
-        cd /action/
-        mvn clean install
+      run: mvn clean install
