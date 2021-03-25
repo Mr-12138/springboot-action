@@ -22,5 +22,5 @@ jobs:
 
     - name: Build java jar
       run: 
-        cd /action
+        cd /action/
         mvn clean install
