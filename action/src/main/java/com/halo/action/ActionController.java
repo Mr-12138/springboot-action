@@ -16,6 +16,7 @@ public class ActionController {
     }
 
 
+    @RequestMapping("/action")
     public String action() {
         return "1233456";
     }
